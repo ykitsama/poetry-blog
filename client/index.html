@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Poetry Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Poetry Blog ✨</h1>
+
+    <form id="poem-form">
+      <input type="text" id="title" placeholder="Poem Title" required>
+      <input type="text" id="author" placeholder="Author">
+      <input type="text" id="tags" placeholder="Tags (comma-separated)">
+      <input type="text" id="imageUrl" placeholder="Image URL (optional)">
+      <textarea id="content" placeholder="Write your poem..." required></textarea>
+      <button type="submit">Add Poem</button>
+    </form>
+
+    <h2>Poems</h2>
+    <div id="poems"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
