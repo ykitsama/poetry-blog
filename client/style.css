@@ -1,1 +1,59 @@
+body {
+  font-family: Georgia, serif;
+  background: #fffaf0;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 10px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #a52a2a;
+}
+
+.poem {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.poem h3 {
+  margin: 0;
+}
+
+.poem small {
+  color: #555;
+}
+
+.poem img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
 
